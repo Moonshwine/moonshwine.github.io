@@ -72,7 +72,7 @@ a:focus {
 
 a:before,
 a:after {
-    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -webkit-transition: color 0.1s ease-in, limegree 0.1s ease-in;
     -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
     -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
     -o-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -101,6 +101,10 @@ a:after {
     color: white;
 }
 
+.navbar-brand {
+  font: 400 1.5em 'Great Vibes', Helvetica, sans-serif;
+  text-shadow: 3px 3px 0px rgba(0,0,0,0.1), 7px 7px 0px rgba(0,0,0,0.05);
+}
 /* Helpers */
 
 .mt {
